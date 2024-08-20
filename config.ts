@@ -1,9 +1,9 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "https://www.builder.io/c/docs/developers",
-  match: "https://www.builder.io/c/docs/**",
-  maxPagesToCrawl: 50,
+  url: "https://www.federalcompass.com/federal-government-awarded-contracts",
+  match: "https://www.federalcompass.com/award-contract-detail/**",
+  maxPagesToCrawl: 20,
   outputFileName: "output.json",
   maxTokens: 2000000,
 };
