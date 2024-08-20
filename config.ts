@@ -5,5 +5,5 @@ export const defaultConfig: Config = {
   match: "https://www.federalcompass.com/award-contract-detail/**",
   maxPagesToCrawl: 100,
   outputFileName: "output2.json",
-  maxTokens: 2000000,
+  maxTokens: 20000000,
 };
